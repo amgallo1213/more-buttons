@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>More Buttons</title>
+</head>
+<body>
+    <div class="btns">
+        <div>
+            <button class="button-52" onmouseover="sayHello(this)" onmouseout="sayClick(this)">Click Me!</button>
+        </div>
+        <div>
+            <button onclick="setActive(this)" class="dark-mode">Switch to dark mode</button>
+        </div>
+        <div class="block" onmouseover="over(this)" onmouseout="out(this)">
+            <p>I'm a circle!</p>
+        </div>
+        <div>
+            <button id="like-btn" onClick="addLike()">1 </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
